@@ -1,5 +1,6 @@
 #!/bin/bash
-Ram:: Hi Rober
-Rahim::Hello Ram
-Ram:: How are you?
-Rahim:: I am good, How about you?
+
+echo "Ram::: Hi Rober"
+echo "Rahim:: Hello Ram"
+echo "Ram:: How are you?"
+echo "Rahim:: I am good, How about you?"
