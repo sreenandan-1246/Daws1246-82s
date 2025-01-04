@@ -1,7 +1,9 @@
 #!/bin/bash
 
-$(date)
-echo "display the date: $date"
+TIMESTAMP=$(date)
+echo "script is running: $TIMESTAMP"
+
+
 
 
 
