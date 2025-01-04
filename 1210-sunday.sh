@@ -1,7 +1,8 @@
 #!/bin/bash
 
-date "+%A"
-echo " date "+%A""
+PERSON1=date "+%A"
+echo "today is: $PERSON1"
+
 
 
 
