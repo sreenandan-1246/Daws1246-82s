@@ -1,7 +1,7 @@
 #!/bin/bash
 
-$date
-
+$(date)
+echo "display the date: $date"
 
 
 
