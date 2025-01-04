@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "all variables passed : $@"
+echo "All variables passed : $@"
 echo "Number of variables: $#"
 echo "Script Name: $0"
 echo "Present working directory: $PWD"
