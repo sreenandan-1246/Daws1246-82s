@@ -1,8 +1,7 @@
 #!/bin/bash
 
-TIMESTAMP=$(date)
-echo "script is executed: $TIMESTAMP" | cut -d "/" -f1
-echo "print day: $f1"
+$date --date="04/02/2025"
+
 
 
 
