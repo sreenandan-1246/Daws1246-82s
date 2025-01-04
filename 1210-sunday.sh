@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date -d="saturday"
+date -d="04"
 
 
 
