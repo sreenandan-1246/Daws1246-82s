@@ -1,11 +1,7 @@
 #!/bin/bash
 
-TIMESTAMP=$(date)
-echo "give the today date: $TIMESTAMP"
-if [ $TIMESTAMP  + %A ]
-then
-echo "today is"
-fi
+DAY=$(date -d "$D" '+%d')
+echo "Day: $DAY"
 
 
 
