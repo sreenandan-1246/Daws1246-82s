@@ -1,6 +1,9 @@
 #!/bin/bash
 
-$(date)
-echo "date"
+TIMESTAMP=$(date)
+echo "give the today date: $TIMESTAMP"
+
+
+
 
 
