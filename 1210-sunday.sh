@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DAY=$(date -d "$D" '+%d')
-echo "Day: $DAY"
+$ date -d "04-01-2025" + "%A"
+echo "Given day is: $date"
 
 
 
