@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$ date + "%d"
-echo "print date"
+$ (date)
+echo "date"
 
 
