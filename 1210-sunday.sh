@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$ date -d "04-01-2025" + "%A"
+$(date) -d "2025-04-01" + "%A"
 echo "Given day is: $date"
 
 
