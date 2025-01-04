@@ -1,7 +1,11 @@
 #!/bin/bash
 
-PERSON1=date "+%A"
-echo "today is: $PERSON1"
+if [ date "+%A" -eq sunday ]
+then 
+echo "if today is not sunday go to school"
+else
+echo "today is holiday"
+fi
 
 
 
