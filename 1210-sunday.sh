@@ -2,7 +2,7 @@
 
 TIMESTAMP=$(date)
 echo "give the today date: $TIMESTAMP"
-if [ $TIMESTAMP -eq sunday ]
+if [ $TIMESTAMP %d -eq sunday ]
 then
 echo "today is holiday"
 else
