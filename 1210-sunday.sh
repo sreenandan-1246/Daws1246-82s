@@ -1,12 +1,14 @@
 #!/bin/bash
 
 DAY=$(date "+%A")
-if [ "DAY" = "sunday" ]
-then
+if [ "$DAY" == "sunday" ]
+{
 echo "go to school"
+}
 else
-echo "today is holiday"
-fi
+{
+    echo "today is holiday"
+}
 
 
 
