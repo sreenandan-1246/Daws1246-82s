@@ -1,14 +1,7 @@
 #!/bin/bash
 
-if [ date "+%A" -eq sunday ]
-{
-    echo "go to school"
-}
-else
-{
-    echo "today is holiday"
-}
-
+DAY=$(date "+%A")
+echo "today is: $DAY"
 
 
 
