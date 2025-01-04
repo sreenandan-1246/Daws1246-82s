@@ -1,7 +1,6 @@
 #!/bin/bash
 
 DAY=$(date "+%A")
-echo "today is: $DAY"
 if [ "$DAY" = "sunday" ]
 then
 echo "go to school"
