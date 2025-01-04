@@ -2,7 +2,7 @@
 
 DAY=$(date "+%A")
 echo "today is: $DAY"
-if [ $(date "+%A") -eq sunday ]
+if [ "$DAY" -eq sunday ];
 then
 echo "go to school"
 else
