@@ -26,6 +26,9 @@ else
 
 echo "mysql is already .....installed"
 
+fi
+
+
 dnf list installed git
 
 if [ $? -ne 0 ]
@@ -42,6 +45,8 @@ else
 fi
 
 else
+
 echo "git is already.... installed"
+
 fi
 
