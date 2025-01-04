@@ -1,6 +1,6 @@
 #!/bin/bash
 
-date -d="04"
+date --date="tomorrow"
 
 
 
