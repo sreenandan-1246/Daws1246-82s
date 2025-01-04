@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$(date) --date="04"
+date --date="04"
 
 
 
