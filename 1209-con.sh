@@ -1,7 +1,7 @@
 #!/bin/bash
 
-NUMBER=$1
-if[$NUMBER -gt 100]
+NUMBER1=$1
+if[$NUMBER1 -gt 100]
 then
 echo "Given Number is greater then 100"
 else
