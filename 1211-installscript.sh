@@ -19,6 +19,13 @@ fi
       echo "Installing mysql.... Success"
   fi
 
+  else
+     echo "Mysql already...Installed"
+
+     fi
+
+     
+
     dnf install git -y
 
  if [ $? -ne 0 ]
@@ -29,3 +36,7 @@ fi
   else
       echo "Installing git.... Success"
   fi
+
+else
+echo "Git is already... Installed"
+fi
