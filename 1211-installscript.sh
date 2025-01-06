@@ -11,8 +11,10 @@ fi
 
   if [ $? -ne 0 ]
   then
+
   echo "Installing mysql.... Failure"
-  exit
+  exit 1
+  
   else
   echo "Installing mysql.... Success"
   fi
@@ -21,8 +23,10 @@ fi
 
  if [ $? -ne 0 ]
   then
+
   echo "Installing git.... Failure"
-  exit
+  exit 1
+
   else
   echo "Installing git.... Success"
   fi
