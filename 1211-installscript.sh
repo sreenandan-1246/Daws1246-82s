@@ -20,11 +20,11 @@ fi
   fi
 
   else
-     echo "Mysql already...Installed"
+     echo "Mysql is already...Installed"
 
      fi
 
-     
+
 
     dnf install git -y
 
@@ -38,5 +38,5 @@ fi
   fi
 
 else
-echo "Git is already... Installed"
+     echo "Git is already... Installed"
 fi
